@@ -3,7 +3,7 @@ import './App.css'; // Import the separate CSS file
 import { useState } from 'react';
 
 function App() {
-  const [currentColor, setCurrentColor] = useState('red');
+  const [currentColor, setCurrentColor] = useState('');
 
 
   return (<>
